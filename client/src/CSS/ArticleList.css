@@ -6,14 +6,12 @@
   max-width: 800px;
   padding: 1rem;
   border-radius: 8px;
-  background: rgb(232, 232, 232);
 }
 
 .article {
   padding: 1rem 2rem;
   background-color: #ffffff;
   border-radius: 8px;
-  /* border: 1px solid #e0e0e0; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
 }

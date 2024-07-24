@@ -41,9 +41,10 @@ const ArticleScraper = () => {
         </div>
       </div>
 
-      {isLoadig && (
+      {isLoadig && !isError && (
         <div className="loading-indicator">
-          <img src={loder} alt="" />
+          <img src={loder} alt="Loading" />
+          <h3>Its taking a while, please wait...</h3>
         </div>
       )}
 

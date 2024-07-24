@@ -16,7 +16,7 @@ const Article = ({ article }) => {
           <p className="post-date">{article.date}</p>
         </div>
         <div className="read-more">
-          <a href={article.url}>
+          <a href={article.url} target="_blank">
             <button>Read more</button>
           </a>
         </div>
