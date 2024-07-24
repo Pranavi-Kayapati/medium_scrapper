@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8001";
+const API_URL = "https://scraper-server-two.vercel.app";
 export const scrapeArticles = async (topic) => {
   try {
     const response = await fetch(`${API_URL}/scrape`, {
