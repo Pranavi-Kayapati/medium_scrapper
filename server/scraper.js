@@ -4,6 +4,9 @@ const puppeteer = require("puppeteer");
 async function scrapeMedium(topic) {
   try {
     const browser = await puppeteer.launch();
+    // const browser = await puppeteer.launch({
+    //   executablePath: "/path/to/Chrome",
+    // });
     const page = await browser.newPage();
 
     await page.goto(`https://medium.com/search?q=${topic}`);
