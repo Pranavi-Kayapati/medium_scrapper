@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "title": "Unlocking PWA Power: Modern Web Apps in 2024 | React + TypeScript Example",
-    "content": "In the ever-evolving landscape of web development, Progressive Web Apps (PWAs) have emerged as a game-changer, merging the best features of…",
-    "author": "Sviat Kuzhelev",
-    "url": "https://medium.com/javascript-in-plain-english/unlocking-pwa-power-modern-web-apps-in-2024-react-typescript-example-ef6c56e1392a",
-    "date": "Jul 17"
-  },
-  {
-    "id": 2,
-    "title": "A Friend Who Ruined My College Experience Tried to Reconnect. No.",
-    "content": "Friendships can expire. Maybe they deserve to end.",
-    "author": "John @ Ice Cream React | We need writers!",
-    "url": "https://medium.com/wellspring-publications/a-friend-who-ruined-my-college-experience-tried-to-reconnect-no-53e1cb1c8ac1",
-    "date": "Jul 9"
-  },
-  {
-    "id": 3,
-    "title": "21 Must-Bookmark React GitHub Repositories Every React Developer Should Know",
-    "content": "Check out these 21 Must-Bookmark React GitHub Repositories, which are essential for every React developer to help in their coding journey.",
-    "author": "devShefali",
-    "url": "https://medium.com/stackademic/21-must-bookmark-react-github-repositories-every-react-developer-should-know-d88086a7b936",
-    "date": "Jul 1"
-  },
-  {
-    "id": 4,
-    "title": "Please Stop using Recharts in React",
-    "content": "Because Shadcn Charts Are Finally Here!",
-    "author": "Daniel Craciun",
-    "url": "https://medium.com/gitconnected/time-to-stop-using-recharts-in-react-647fa3e2ddf5",
+    "title": "🌴 James Gosling, Founder Of Java Is Retiring",
+    "content": "The Java creator retires, leaving community greatful for his technological and life wisdom he shared in a humble way over his lifetime…",
+    "author": "Tom Smykowski",
+    "url": "https://medium.com/@tomaszs2/james-gosling-founder-of-java-is-retiring-2ef6166baf4a",
     "date": "Jul 7"
   },
   {
+    "id": 2,
+    "title": "Optimistic Locking with StampedLock in Java",
+    "content": "How Optimistic Locking Works",
+    "author": "Saeed Zarinfam",
+    "url": "https://medium.com/itnext/optimistic-locking-with-stampedlock-in-java-f2e4d5ba35cd",
+    "date": "Jul 4"
+  },
+  {
+    "id": 3,
+    "title": "IBM Java Developer Interview Experience for 0–3 years(Q&A)",
+    "content": "Hello Folks, In this article we will go through recent interview experience of a java developer having experience of 0–3 years. This will…",
+    "author": "Ajay Rathod",
+    "url": "https://medium.com/@rathod-ajay/ibm-java-developer-interview-experience-for-0-3-years-q-a-28cd8c57fc08",
+    "date": "Jul 6"
+  },
+  {
+    "id": 4,
+    "title": "Implementing a multi-thread file downloader Using Java synchronization utilities",
+    "content": "Learn more about CyclicBarrier and CountDownLatch",
+    "author": "Saeed Zarinfam",
+    "url": "https://medium.com/itnext/implementing-a-multi-thread-file-downloader-using-java-synchronization-utilities-10a097feb47c",
+    "date": "Jul 2"
+  },
+  {
     "id": 5,
-    "title": "6 frontend repos used by the top 1% of react devs 🎖️",
-    "content": "Not a member? Read for FREE here.",
-    "author": "Daniel Craciun",
-    "url": "https://medium.com/gitconnected/6-frontend-repos-used-by-the-top-1-of-react-devs-️-a7784de2ec80",
-    "date": "Jul 3"
+    "title": "Java Web: The Backlog of MQ Messages is Driving Me Crazy",
+    "content": "My article is open to everyone; non-member readers can click this link to read the full text.",
+    "author": "Oliver Foster",
+    "url": "https://medium.com/stackademic/java-web-the-backlog-of-mq-messages-is-driving-me-crazy-7e4d04aa8d1d",
+    "date": "Jul 7"
   }
 ]

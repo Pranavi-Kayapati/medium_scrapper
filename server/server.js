@@ -11,5 +11,6 @@ app.use(cors());
 
 app.use("/", scraperRouter);
 
-const PORT = 8001;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+//const PORT = 8001;
+//app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+module.exports = app;
