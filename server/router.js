@@ -4,7 +4,7 @@ const { scrapeMedium } = require("./scraper");
 const { writeDB, readDB } = require("./db");
 
 scraperRouter.get("/", (req, res) => {
-  res.send("getting data from router");
+  res.send("server is running");
 });
 
 scraperRouter.post("/scrape", async (req, res) => {
