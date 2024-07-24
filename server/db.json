@@ -1,42 +1,42 @@
 [
   {
     "id": 1,
-    "title": "Top 10+1 JavaScript one-liners I love to use",
-    "content": "And you should too",
-    "author": "Arnold Gunter",
-    "url": "https://medium.com/gitconnected/top-11-javascript-one-liners-i-love-to-use-405519e073e8",
-    "date": "Jul 5"
+    "title": "Unlocking PWA Power: Modern Web Apps in 2024 | React + TypeScript Example",
+    "content": "In the ever-evolving landscape of web development, Progressive Web Apps (PWAs) have emerged as a game-changer, merging the best features of…",
+    "author": "Sviat Kuzhelev",
+    "url": "https://medium.com/javascript-in-plain-english/unlocking-pwa-power-modern-web-apps-in-2024-react-typescript-example-ef6c56e1392a",
+    "date": "Jul 17"
   },
   {
     "id": 2,
-    "title": "JavaScript Object-Oriented Programming (OOP) Basics",
-    "content": "Introduction",
-    "author": "Alexander Obregon",
-    "url": "https://medium.com/@AlexanderObregon/javascript-object-oriented-programming-oop-basics-02a07717116f",
-    "date": "Jul 3"
+    "title": "A Friend Who Ruined My College Experience Tried to Reconnect. No.",
+    "content": "Friendships can expire. Maybe they deserve to end.",
+    "author": "John @ Ice Cream React | We need writers!",
+    "url": "https://medium.com/wellspring-publications/a-friend-who-ruined-my-college-experience-tried-to-reconnect-no-53e1cb1c8ac1",
+    "date": "Jul 9"
   },
   {
     "id": 3,
-    "title": "How to Implement JavaScript Decorators",
-    "content": "JavaScript decorators are a powerful feature that allows you to modify the behavior of classes and their members in a declarative manner…",
-    "author": "Carlos Rojas",
-    "url": "https://medium.com/@carlosrojaso/how-to-implement-javascript-decorators-c2d9e2a16a63",
-    "date": "Jul 5"
+    "title": "21 Must-Bookmark React GitHub Repositories Every React Developer Should Know",
+    "content": "Check out these 21 Must-Bookmark React GitHub Repositories, which are essential for every React developer to help in their coding journey.",
+    "author": "devShefali",
+    "url": "https://medium.com/stackademic/21-must-bookmark-react-github-repositories-every-react-developer-should-know-d88086a7b936",
+    "date": "Jul 1"
   },
   {
     "id": 4,
-    "title": "Niche and Useful JavaScript Techniques [API]",
-    "content": "The following APIs are some that I have found useful in my development process. Some of these might be quite obscure, making them easy to…",
-    "author": "Maxwell",
-    "url": "https://medium.com/javascript-in-plain-english/niche-and-useful-javascript-techniques-api-46c83e23ce57",
-    "date": "Jul 15"
+    "title": "Please Stop using Recharts in React",
+    "content": "Because Shadcn Charts Are Finally Here!",
+    "author": "Daniel Craciun",
+    "url": "https://medium.com/gitconnected/time-to-stop-using-recharts-in-react-647fa3e2ddf5",
+    "date": "Jul 7"
   },
   {
     "id": 5,
-    "title": "JavaScript Debugging Techniques and Basic Concepts for Beginners",
-    "content": "Introduction",
-    "author": "Alexander Obregon",
-    "url": "https://medium.com/@AlexanderObregon/javascript-debugging-techniques-and-basic-concepts-for-beginners-1ba493c644a0",
-    "date": "Jul 7"
+    "title": "6 frontend repos used by the top 1% of react devs 🎖️",
+    "content": "Not a member? Read for FREE here.",
+    "author": "Daniel Craciun",
+    "url": "https://medium.com/gitconnected/6-frontend-repos-used-by-the-top-1-of-react-devs-️-a7784de2ec80",
+    "date": "Jul 3"
   }
 ]
