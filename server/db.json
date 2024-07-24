@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Top 10+1 JavaScript one-liners I love to use",
+    "content": "And you should too",
+    "author": "Arnold Gunter",
+    "url": "https://medium.com/gitconnected/top-11-javascript-one-liners-i-love-to-use-405519e073e8",
+    "date": "Jul 5"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Object-Oriented Programming (OOP) Basics",
+    "content": "Introduction",
+    "author": "Alexander Obregon",
+    "url": "https://medium.com/@AlexanderObregon/javascript-object-oriented-programming-oop-basics-02a07717116f",
+    "date": "Jul 3"
+  },
+  {
+    "id": 3,
+    "title": "How to Implement JavaScript Decorators",
+    "content": "JavaScript decorators are a powerful feature that allows you to modify the behavior of classes and their members in a declarative manner…",
+    "author": "Carlos Rojas",
+    "url": "https://medium.com/@carlosrojaso/how-to-implement-javascript-decorators-c2d9e2a16a63",
+    "date": "Jul 5"
+  },
+  {
+    "id": 4,
+    "title": "Niche and Useful JavaScript Techniques [API]",
+    "content": "The following APIs are some that I have found useful in my development process. Some of these might be quite obscure, making them easy to…",
+    "author": "Maxwell",
+    "url": "https://medium.com/javascript-in-plain-english/niche-and-useful-javascript-techniques-api-46c83e23ce57",
+    "date": "Jul 15"
+  },
+  {
+    "id": 5,
+    "title": "JavaScript Debugging Techniques and Basic Concepts for Beginners",
+    "content": "Introduction",
+    "author": "Alexander Obregon",
+    "url": "https://medium.com/@AlexanderObregon/javascript-debugging-techniques-and-basic-concepts-for-beginners-1ba493c644a0",
+    "date": "Jul 7"
+  }
+]
