@@ -22,7 +22,7 @@ const ArticleScraper = () => {
       setTopic("");
     } catch (err) {
       setIsError(true);
-      setErrorMessage(err.message);
+      setErrorMessage(err.error);
     }
   };
 

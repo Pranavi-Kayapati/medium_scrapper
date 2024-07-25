@@ -3,12 +3,6 @@ require("dotenv").config();
 async function scrapeMedium(topic) {
   //const browser = await puppeteer.launch();
   const browser = await puppeteer.launch({
-    args: [
-      "--disable-setuid-sandbox",
-      "--no-sandbox",
-      "--single-process",
-      "--no-zygote",
-    ],
     executablePath:
       process.env.NODE_ENV === "production"
         ? process.env.PUPPETEER_EXECUTABLE_PATH
@@ -55,6 +49,7 @@ async function scrapeMedium(topic) {
   } catch (error) {
     console.error(`Error scraping Medium: ${error.message}`);
     console.error(error.stack);
+    await browser.close();
     throw error;
   }
 }
