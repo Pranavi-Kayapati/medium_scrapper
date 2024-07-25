@@ -1,32 +1,27 @@
 const fs = require("fs");
+const fsPromises = fs.promises;
 const DB_FILE = "./db.json";
 
-// Helper function to write to db.json
-const writeDB = (data) => {
-  return new Promise((resolve, reject) => {
-    fs.writeFile(DB_FILE, JSON.stringify(data, null, 2), "utf8", (err) => {
-      if (err) {
-        return reject(err);
-      }
-      resolve();
-    });
-  });
+// function to write to db.json
+const writeDB = async (data) => {
+  try {
+    await fsPromises.writeFile(DB_FILE, JSON.stringify(data, null, 2), "utf8");
+    console.log("Data written to db.json");
+  } catch (err) {
+    console.error("Error writing to db.json:", err);
+    throw err;
+  }
 };
 
-// Helper function to read from db.json
-const readDB = () => {
-  return new Promise((resolve, reject) => {
-    fs.readFile(DB_FILE, "utf8", (err, data) => {
-      if (err) {
-        return reject(err);
-      }
-      try {
-        resolve(JSON.parse(data));
-      } catch (e) {
-        reject(e);
-      }
-    });
-  });
+// function to read from db.json
+const readDB = async () => {
+  try {
+    const data = await fsPromises.readFile(DB_FILE, "utf8");
+    return JSON.parse(data);
+  } catch (err) {
+    console.error("Error reading from db.json:", err);
+    throw err;
+  }
 };
 
 module.exports = { writeDB, readDB };

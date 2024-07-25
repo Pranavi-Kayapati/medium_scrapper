@@ -13,7 +13,7 @@ scraperRouter.post("/scrape", async (req, res) => {
     let articles = await scrapeMedium(topic);
     console.log("articles", articles);
     await writeDB(articles);
-    res.status(200).json(articles);
+    res.status(200).send(articles);
   } catch (error) {
     console.log(error);
     res
