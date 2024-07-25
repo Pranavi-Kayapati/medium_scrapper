@@ -1,6 +1,9 @@
 const fs = require("fs");
 const fsPromises = fs.promises;
-const DB_FILE = "./db.json";
+const path = require("path");
+const os = require("os");
+const tempDir = os.tmpdir();
+const DB_FILE = path.join(tempDir, "db.json");
 
 // function to write to db.json
 const writeDB = async (data) => {
