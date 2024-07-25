@@ -76,6 +76,9 @@
   justify-content: center;
   background-repeat: no-repeat;
 }
+.result {
+  text-align: center;
+}
 
 .no-articles img {
   width: 30%;
