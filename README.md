@@ -54,5 +54,5 @@ The frontend is built with React. It fetches the scraped articles from the backe
 
 ## Deployed Links
 
-- **Frontend:** (https://medium-scraper-rho.vercel.app/)
-- **Backend:** (https://medium-scrapper-server.onrender.com)
+- **Frontend:** https://medium-scraper-rho.vercel.app/
+- **Backend:** https://medium-scrapper-server.onrender.com
