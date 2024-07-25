@@ -51,9 +51,17 @@ const ArticleScraper = () => {
 
       {!isLoadig && articles?.length > 0 && (
         <>
-          <h2 className="result">
-            Top 5 Results for {localStorage.getItem("topic")}
-          </h2>
+          {localStorage.getItem("topic") ? (
+            <h2 className="result">
+              Top 5 Results for {localStorage.getItem("topic")}
+            </h2>
+          ) : (
+            <div className="no-articles">
+              <img src={search} alt="" />
+              <h1>Search for Articles</h1>
+            </div>
+          )}
+
           <div>
             <ArticleList articles={articles} />
           </div>
