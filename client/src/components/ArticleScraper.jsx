@@ -49,9 +49,12 @@ const ArticleScraper = () => {
       )}
 
       {!isLoadig && articles?.length > 0 && (
-        <div>
-          <ArticleList articles={articles} />
-        </div>
+        <>
+          <h1>Reasult for {topic}</h1>
+          <div>
+            <ArticleList articles={articles} />
+          </div>
+        </>
       )}
 
       {!isLoadig && !articles?.length && (
