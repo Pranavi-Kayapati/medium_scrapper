@@ -5,7 +5,7 @@ import "../CSS/ArticleScraper.css";
 import search from "../images/search2.jpg";
 import loder from "../images/Loading.gif";
 const ArticleScraper = () => {
-  const [topic, setTopic] = useState("");
+  const [topic, setTopic] = useState(false);
   const [articles, setArticles] = useState([]);
   const [isLoadig, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
@@ -20,7 +20,6 @@ const ArticleScraper = () => {
       setArticles(scrapedArticles);
       setIsLoading(false);
       localStorage.setItem("topic", topic);
-      setTopic("");
     } catch (err) {
       setIsError(true);
       setErrorMessage(err.error);
@@ -42,7 +41,7 @@ const ArticleScraper = () => {
         </div>
       </div>
 
-      {isLoadig && !isError && (
+      {isLoadig && !isError && topic && (
         <div className="loading-indicator">
           <img src={loder} alt="Loading" />
           <h3>Its taking a while, please wait...</h3>
@@ -51,16 +50,7 @@ const ArticleScraper = () => {
 
       {!isLoadig && articles?.length > 0 && (
         <>
-          {localStorage.getItem("topic") ? (
-            <h2 className="result">
-              Top 5 Results for {localStorage.getItem("topic")}
-            </h2>
-          ) : (
-            <div className="no-articles">
-              <img src={search} alt="" />
-              <h1>Search for Articles</h1>
-            </div>
-          )}
+          {topic && <h2 className="result">Top 5 Results for {topic}</h2>}
 
           <div>
             <ArticleList articles={articles} />
