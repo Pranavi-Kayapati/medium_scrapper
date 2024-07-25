@@ -19,6 +19,7 @@ const ArticleScraper = () => {
       console.log("scrapeArticles", scrapeArticles);
       setArticles(scrapedArticles);
       setIsLoading(false);
+      localStorage.setItem("topic", topic);
       setTopic("");
     } catch (err) {
       setIsError(true);
@@ -50,7 +51,7 @@ const ArticleScraper = () => {
 
       {!isLoadig && articles?.length > 0 && (
         <>
-          <h1>Reasult for {topic}</h1>
+          <h1>Reasult for {localStorage.getItem("topic")}</h1>
           <div>
             <ArticleList articles={articles} />
           </div>
