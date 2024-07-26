@@ -1,4 +1,4 @@
-const API_URL = "https://medium-scrapper-server.onrender.com";
+const API_URL = "http://localhost:8001";
 export const scrapeArticles = async (topic) => {
   try {
     const response = await fetch(`${API_URL}/scrape`, {

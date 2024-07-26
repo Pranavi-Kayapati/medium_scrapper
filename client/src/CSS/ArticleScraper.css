@@ -10,6 +10,7 @@
 
 .scraperHeader h1 {
   font-size: 2.8rem;
+  text-align: center;
 }
 
 .scraperHeader input {
@@ -89,4 +90,35 @@
   font-size: 2rem;
   font-weight: 700;
   color: #282c34;
+}
+
+@media screen and (max-width: 480px) {
+  .scraperHeader h1 {
+    font-size: 1.8rem;
+  }
+  .scraperHeader input {
+    padding: 10px 15px;
+    width: 215px;
+  }
+  .scraperHeader button {
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .scraperHeader div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .scraperHeader h1 {
+    font-size: 1.5rem;
+  }
+  .scraperHeader input {
+    width: 220px;
+  }
+  h2.result {
+    font-size: 1.2rem;
+  }
 }

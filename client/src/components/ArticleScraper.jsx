@@ -5,7 +5,7 @@ import "../CSS/ArticleScraper.css";
 import search from "../images/search2.jpg";
 import loder from "../images/Loading.gif";
 const ArticleScraper = () => {
-  const [topic, setTopic] = useState(false);
+  const [topic, setTopic] = useState();
   const [articles, setArticles] = useState([]);
   const [isLoadig, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
@@ -20,9 +20,17 @@ const ArticleScraper = () => {
       setArticles(scrapedArticles);
       setIsLoading(false);
       localStorage.setItem("topic", topic);
+      setTopic("");
     } catch (err) {
+      console.log("err", err);
       setIsError(true);
-      setErrorMessage(err.error);
+      setErrorMessage(err);
+    }
+  };
+
+  const handleClick = () => {
+    if (topic) {
+      handleScrape();
     }
   };
 
@@ -37,7 +45,7 @@ const ArticleScraper = () => {
             onChange={(e) => setTopic(e.target.value)}
             placeholder="Search For Articles..."
           />
-          <button onClick={handleScrape}>Search</button>
+          <button onClick={handleClick}>Search</button>
         </div>
       </div>
 
@@ -50,7 +58,11 @@ const ArticleScraper = () => {
 
       {!isLoadig && articles?.length > 0 && (
         <>
-          {topic && <h2 className="result">Top 5 Results for {topic}</h2>}
+          {localStorage.getItem("topic") && (
+            <h2 className="result">
+              Top 5 Results for {localStorage.getItem("topic")}
+            </h2>
+          )}
 
           <div>
             <ArticleList articles={articles} />
@@ -58,14 +70,14 @@ const ArticleScraper = () => {
         </>
       )}
 
-      {!isLoadig && !articles?.length && (
+      {!isLoadig && !articles?.length && !topic && (
         <div className="no-articles">
           <img src={search} alt="" />
           <h1>Search for Articles</h1>
         </div>
       )}
 
-      {!isError && <p style={{ color: "red" }}>{errorMessage}</p>}
+      {isError && <p style={{ color: "red" }}>{errorMessage}</p>}
     </div>
   );
 };

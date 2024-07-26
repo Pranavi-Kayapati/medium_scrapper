@@ -33,6 +33,7 @@
 }
 
 .article .article-title {
+  text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -71,4 +72,33 @@ p {
 
 .article .date-readmore button:hover {
   background-color: rgb(98, 58, 114);
+}
+
+@media screen and (max-width: 480px) {
+  .article {
+    padding: 10px 20px;
+  }
+  .article .article-title {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .article .author h3,
+  .article .article-date h3 {
+    font-size: 15px;
+    margin: 0px;
+  }
+  .article .author p,
+  .article .article-date p {
+    font-size: 15px;
+    margin: 0 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .article .article-title {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }
