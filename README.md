@@ -24,29 +24,31 @@ This project scrapes Medium articles based on a search topic and displays them o
 
 
 ## Directory Structure
+
+
 medium-article-scrapper/
 ├── server/
-│   ├── db.js
-|   ├── db.json
-|   ├── router.js
-│   ├── scraper.js
-│   └── server.js
+│ ├── db.js
+│ ├── db.json
+│ ├── router.js
+│ ├── scraper.js
+│ └── server.js
 ├── frontend/
-│   ├── public/
-│   │   ├── index.html
-│   │   └── ...
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── ArticleList.js
-│   │   │   ├── ArticleScraper.js
-│   │   │   └── ...
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   ├── App.css
-│   │   └── ...
-│   ├── package.json
-│   ├── vercel.json
-│   └── ...
+│ ├── public/
+│ │ ├── index.html
+│ │ └── ...
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── ArticleList.js
+│ │ │ ├── ArticleScraper.js
+│ │ │ └── ...
+│ │ ├── App.js
+│ │ ├── index.js
+│ │ ├── App.css
+│ │ └── ...
+│ ├── package.json
+│ ├── vercel.json
+│ └── ...
 ├── .env
 ├── package.json
 └── README.md
