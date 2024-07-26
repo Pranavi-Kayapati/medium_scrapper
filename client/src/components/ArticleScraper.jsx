@@ -24,7 +24,7 @@ const ArticleScraper = () => {
     } catch (err) {
       console.log("err", err);
       setIsError(true);
-      setErrorMessage(err);
+      setErrorMessage(err.Error);
     }
   };
 
