@@ -25,12 +25,6 @@ This project scrapes Medium articles based on a search topic and displays them o
 
 ## Directory Structure
 
-
-├─ backend/
-├─ frontend/
-│  ├─ ...
-
-
 medium-article-scrapper/
 ├── server/
 │ ├── db.js
